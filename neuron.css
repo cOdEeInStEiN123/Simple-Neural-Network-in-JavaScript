@@ -1,0 +1,144 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align:center;
+    color:DodgerBlue;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-style: italic
+}
+
+p {
+    color: navy;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    border-style: inset dotted outset;
+    padding: 10px;
+    border-color: red;
+    transform: rotate(2deg);
+    border-radius: 5px;
+}
+
+#iterationsField, 
+#rateOfLearningField, 
+#desiredResultField {
+    transform: rotate(5deg);
+}
+
+#inputsField0, 
+#inputsField1, 
+#inputsField2, 
+#inputsField3 {
+    transform: rotate(5deg);
+} 
+
+#weightsField0, 
+#weightsField1, 
+#weightsField2, 
+#weightsField3 {
+    transform: rotate(-5deg);
+} 
+
+input[type="number"] {
+    background-color: #3DD1E7;
+    border: 0 solid #E5E7EB;
+    color: #000000;
+    /* display: flex; */
+    box-sizing: border-box;
+    width: 46px;
+    height: 36px;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 0;
+    margin-right: 5px;
+    border: 1px solid grey;
+    text-align: center;
+    
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+
+  }
+  
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+label { 
+    color: navy;
+    /* text-indent: 30px; */
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+.train-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.button {
+    background-color: #3DD1E7;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    display: flex;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 50%;
+    max-width: 460px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:focus {
+    outline: 0;
+}
+
+.button:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+
+.button:hover:after {
+    bottom: 2px;
+    left: 2px;
+}
+
+@media (min-width: 768px) {
+    .button {
+        padding: .75rem 3rem;
+        font-size: 1.25rem;
+    }
+}
+  

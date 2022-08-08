@@ -1,0 +1,18 @@
+{
+    "name": "Simple Neural Network in JavaScript", 
+    "description": "A Simple Neural Network built with Vanilla JavaScript. As a way to learn and understand Neural Networks.",
+    "authors": [ {
+        "name": "Basel M. Habayeb",
+        "email": "haba.mylo@gmail.com"
+       } ],
+    "manifest_version": 3, 
+    "version": "1.0", 
+    "action": {
+        "default_popup": "index.html" 
+    },
+    "permissions": [
+    ], 
+    "content_security_policy": {
+        "extension_page": "default-src 'unsafe-inline'"
+      } 
+}
